@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.png";
+// import editor from "../../Assets/Projects/codeEditor.png";
+// import chatify from "../../Assets/Projects/chatify.png";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import bitsOfCode from "../../Assets/Projects/blog.png";
 
 import chatapp from '../../Assets/Projects/new/chat.png'
 import movieapp from '../../Assets/Projects/new/movie.png'
@@ -15,7 +15,7 @@ import admindashboarrd from '../../Assets/Projects/new/admin.png'
 import diabetes from '../../Assets/Projects/new/diabetes.png'
 import netflix from '../../Assets/Projects/new/netflix.png'
 import todolist from '../../Assets/Projects/new/todolist.png'
-import weather from '../../Assets/Projects/new/weather.png'
+// import weather from '../../Assets/Projects/new/weather.png'
 import firealarm from '../../Assets/Projects/new/fire.png'
 import portfolio2 from '../../Assets/Projects/new/portfolio.png'
 import employee_registration from '../../Assets/Projects/new/employee.png'

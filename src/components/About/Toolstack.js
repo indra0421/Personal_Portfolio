@@ -2,13 +2,9 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
-  SiNetlify,
+  // SiPostman,
+  // SiNetlify,
   SiWindows11,
-  SiGoogle,
   SiAnaconda,
   SiSpyderide,
   SiJupyter,
