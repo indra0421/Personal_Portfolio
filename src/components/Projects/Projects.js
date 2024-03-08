@@ -19,6 +19,7 @@ import todolist from '../../Assets/Projects/new/todolist.png'
 import firealarm from '../../Assets/Projects/new/fire.png'
 import portfolio2 from '../../Assets/Projects/new/portfolio.png'
 import employee_registration from '../../Assets/Projects/new/employee.png'
+import blog from '../../Assets/Projects/new/blog.png'
 
 function Projects() {
   return (
@@ -39,7 +40,18 @@ function Projects() {
               title="Fire Alert Pro+ (Ongoing)"
               description="The project fuses IoT and ML for fire detection using sensors and cameras. Machine learning analyzes data, triggering notifications through messages or calls. Challenges include optimizing image uploads without constant internet, managing internet dependency for notifications, and addressing power and recharge issues with the GSM module."
               ghLink="https://github.com/soumyajit4419/Chatify"
-            // demoLink="https://diabetesprediction-using-ml-mnsnyh5jyzd28mbpfec44z.streamlit.app/"
+              demoLink="https://diabetesprediction-using-ml-mnsnyh5jyzd28mbpfec44z.streamlit.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="Blog App"
+              description="Developed a sleek and modern full-stack MERN(MongoDB,Express,React.js,Node.js) blog website with user authentication, utilizing RESTful APIs for seamless communication and integrated MongoDB database and Implemented JWT authentication to enhance security and user privacy"
+              ghLink="https://github.com/indra0421/Blog_app_Server"
+              demoLink="https://my-blog-app-123.netlify.app/"
             />
           </Col>
 
