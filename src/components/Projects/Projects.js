@@ -20,6 +20,7 @@ import firealarm from '../../Assets/Projects/new/fire.png'
 import portfolio2 from '../../Assets/Projects/new/portfolio.png'
 import employee_registration from '../../Assets/Projects/new/employee.png'
 import blog from '../../Assets/Projects/new/blog.png'
+import movie_recom from '../../Assets/Projects/new/movie_recom.png';
 
 function Projects() {
   return (
@@ -41,6 +42,17 @@ function Projects() {
               description="The project fuses IoT and ML for fire detection using sensors and cameras. Machine learning analyzes data, triggering notifications through messages or calls. Challenges include optimizing image uploads without constant internet, managing internet dependency for notifications, and addressing power and recharge issues with the GSM module."
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://diabetesprediction-using-ml-mnsnyh5jyzd28mbpfec44z.streamlit.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movie_recom}
+              isBlog={false}
+              title="Movie Recommendation System"
+              description="Engineered a sophisticated movie recommender using essential Python libraries(Scikit-learn,pandas, numpy ,streamlit , pickle).Implemented advanced data preprocessing techniques, including vectorization and stemming. Deployed the system seamlessly on streamlit.io, showcasing expertise in web interface development and version control using Spyder IDE and GitHub. Demonstrated a command of key Python libraries to ensure a streamlined end-to-end development process."
+              ghLink="https://github.com/indra0421/Diabetes_Prediction-using-ML"
+              demoLink="https://movierecomendationsystem-cd87bius6dn7w5vgqzhkpq.streamlit.app/"
             />
           </Col>
 

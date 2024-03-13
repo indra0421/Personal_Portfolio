@@ -8,6 +8,7 @@ import diabetes from '../../Assets/Projects/new/diabetes.png';
 import firealarm from '../../Assets/Projects/new/fire.png';
 import portfolio2 from '../../Assets/Projects/new/portfolio.png';
 import employee_registration from '../../Assets/Projects/new/employee.png';
+import movie_recom from '../../Assets/Projects/new/movie_recom.png';
 
 export function Projects() {
     return (
@@ -32,11 +33,23 @@ export function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
+                            imgPath={movie_recom}
+                            isBlog={false}
+                            title="Movie Recommendation System"
+                            description="Engineered a sophisticated movie recommender using essential Python libraries. Leveraged scikit-learn for robust machine learning capabilities, pandas for efficient data manipulation, numpy for array operations, and pickle for serialization. "
+                            ghLink="https://github.com/indra0421/Diabetes_Prediction-using-ML"
+                            demoLink="https://movierecomendationsystem-cd87bius6dn7w5vgqzhkpq.streamlit.app/"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
                             imgPath={diabetes}
                             isBlog={false}
                             title="Diabetes Prediction using ML"
                             description="Created a diabetes prediction model in Python using SVM in Jupyter Notebook, achieving 78% accuracy. The project focuses on leveraging SVM's versatility for robust predictions, contributing to effective diabetes risk assessment."
-                            ghLink="https://github.com/indra0421/Diabetes_Prediction-using-ML" />
+                            ghLink="https://github.com/indra0421/Diabetes_Prediction-using-ML"
+                            demoLink="https://diabetesprediction-using-ml-mnsnyh5jyzd28mbpfec44z.streamlit.app/" />
                     </Col>
 
                     <Col md={4} className="project-card">
